@@ -1,1 +1,1 @@
-node run.bat
+bongo: node run.bat
