@@ -1,0 +1,40 @@
+[37.976980209] 2019-01-29 17:55:46,966 - INFO - launcher: Starting sanity checks
+[38.975954056] 2019-01-29 17:55:46,967 - INFO - launcher: Checking for Python 3.5+
+[38.975954056] 2019-01-29 17:55:46,967 - INFO - launcher: Checking console encoding
+[38.975954056] 2019-01-29 17:55:46,967 - INFO - launcher: Setting console encoding to UTF-8
+[39.974451065] 2019-01-29 17:55:46,968 - INFO - launcher: Ensuring we're in the right environment
+[40.973901749] 2019-01-29 17:55:46,969 - INFO - launcher: Adding local bins/ folder to path
+[987.663269043] 2019-01-29 17:55:47,916 - INFO - launcher: Required checks passed.
+[988.662481308] 2019-01-29 17:55:47,917 - INFO - launcher: Optional checks passed.
+[988.662481308] 2019-01-29 17:55:47,917 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.8121559619903564] 2019-01-29 17:55:48,740 - WARNING - musicbot.config | In config.py::MainThread(3684), line 115 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.8121559619903564] 2019-01-29 17:55:48,740 - INFO - musicbot.config | In config.py::MainThread(3684), line 126 in run_checks: Using i18n: config/i18n/en.json
+[1.8151533603668213] 2019-01-29 17:55:48,743 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 219 in _setup_logging: Set logging level to INFO
+[1.8171517848968506] 2019-01-29 17:55:48,745 - DEBUG - musicbot.json | In json.py::MainThread(3684), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.0879850387573242] 2019-01-29 17:55:49,016 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 84 in __init__: Starting MusicBot 1.9.8_3
+[2.0879850387573242] 2019-01-29 17:55:49,016 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[5.4290609359741211] 2019-01-29 17:55:52,357 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 915 in on_ready: Connection established, ready to go.
+[5.4290609359741211] 2019-01-29 17:55:52,357 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 333 in _cache_app_info: Caching app info
+[5.7230119705200195] 2019-01-29 17:55:52,651 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 737 in _scheck_ensure_env: Ensuring data folders exist
+[5.7250173091888428] 2019-01-29 17:55:52,653 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 753 in _scheck_server_permissions: Checking server permissions
+[5.7260110378265381] 2019-01-29 17:55:52,654 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 757 in _scheck_autoplaylist: Auditing autoplaylist
+[5.7260110378265381] 2019-01-29 17:55:52,654 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 761 in _scheck_configs: Validating config
+[5.7260110378265381] 2019-01-29 17:55:52,654 - DEBUG - musicbot.config | In config.py::MainThread(3684), line 216 in async_validate: Validating options...
+[5.7260110378265381] 2019-01-29 17:55:52,654 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 764 in _scheck_configs: Validating permissions config
+[5.7260110378265381] 2019-01-29 17:55:52,654 - DEBUG - musicbot.permissions | In permissions.py::MainThread(3684), line 94 in async_validate: Validating permissions...
+[5.7270102500915527] 2019-01-29 17:55:52,655 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 932 in on_ready: Connected: 539415268988944384/The CCs!#6228
+[5.7280118465423584] 2019-01-29 17:55:52,656 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 940 in on_ready: Owner:     373811325387669516/999+STR#6157
+
+[5.7290117740631104] 2019-01-29 17:55:52,657 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 943 in on_ready: Guild List:
+[5.7290117740631104] 2019-01-29 17:55:52,657 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 947 in on_ready:  - The CCs
+[5.7320067882537842] 2019-01-29 17:55:52,660 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 1003 in on_ready: Not bound to any text channels
+[5.7330081462860107] 2019-01-29 17:55:52,661 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 1016 in on_ready: Autojoining voice channels:
+[5.7340054512023926] 2019-01-29 17:55:52,662 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 1017 in <listcomp>:  - The CCs/Bongo Music!
+[5.7350077629089355] 2019-01-29 17:55:52,663 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 272 in _join_startup_channels: Attempting to join The CCs/Bongo Music!
+[7.8739688396453857] 2019-01-29 17:55:54,802 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 697 in deserialize_queue: Deserializing queue for 539017440177160202
+[8.4328842163085938] 2019-01-29 17:55:55,361 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 416 in get_player: Created player via deserialization for guild 539017440177160202 with 0 entries
+[8.4328842163085938] 2019-01-29 17:55:55,361 - INFO - musicbot.bot | In bot.py::MainThread(3684), line 288 in _join_startup_channels: Joined The CCs/Bongo Music!
+[8.4338819980621338] 2019-01-29 17:55:55,362 - DEBUG - musicbot.bot | In bot.py::MainThread(3684), line 504 in on_player_stop: Running on_player_stop
