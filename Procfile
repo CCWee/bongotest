@@ -1,1 +1,1 @@
-eyzalts: node app.js
+node run.bat
